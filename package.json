@@ -5,12 +5,13 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "tsc --watch"
+    "dev": "tsx watch index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "tsx": "^4.9.3",
     "typescript": "^5.4.5"
   }
 }
